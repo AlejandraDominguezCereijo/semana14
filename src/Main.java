@@ -15,9 +15,9 @@ public class Main {
         _triangulo.rellenar_forma();
         System.out.println("El area del triangulo es: "+_triangulo.calcular_area());
         System.out.println("El perimetro del triangulo es: "+_triangulo.calcular_perimetro());
-        Cuadrilatero[] array_cuadrilatero = new Cuadrilatero[3];
-        array_cuadrilatero[0] = _cuadrado;
-        array_cuadrilatero[1] = _rectangulo;
-        array_cuadrilatero[2] = _triangulo;
+        Forma[] array_forma = new Forma[3];
+        array_forma[0] = _cuadrado;
+        array_forma[1] = _rectangulo;
+        array_forma[2] = _triangulo;
     }
 }
