@@ -23,12 +23,14 @@ public class Rectangulo extends Cuadrilatero implements Forma {
     @Override
     public double calcular_area() {
         double areaRectangulo = base * altura;
+        System.out.println("El area del rectangulo es: "+areaRectangulo);
         return areaRectangulo;
     }
 
     @Override
     public double calcular_perimetro() {
         double perimetroCuadrado = (base * 2) + (altura * 2);
+        System.out.println("El perimetro del rectangulo es: "+perimetroCuadrado);
         return perimetroCuadrado;
     }
 

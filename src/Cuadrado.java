@@ -21,12 +21,14 @@ public class Cuadrado extends Cuadrilatero implements Forma {
     @Override
     public double calcular_area() {
         double areaCuadrado = lado * lado;
+        System.out.println("El area del cuadrado es: "+areaCuadrado);
         return areaCuadrado;
     }
 
     @Override
     public double calcular_perimetro() {
         double perimetroCuadrado = lado * 4;
+        System.out.println("El perimetro del cuadrado es: "+perimetroCuadrado);
         return perimetroCuadrado;
     }
 

@@ -20,12 +20,14 @@ public class Triangulo extends Trigono implements Forma{
     @Override
     public double calcular_area() {
         double areaTriangulo=base*altura/2;
+        System.out.println("El area del triangulo es: "+areaTriangulo);
         return areaTriangulo;
     }
 
     @Override
     public double calcular_perimetro() {
         double perimetroTriangulo=base*3;
+        System.out.println("El perimetro del triangulo es: "+perimetroTriangulo);
         return perimetroTriangulo;
     }
 
